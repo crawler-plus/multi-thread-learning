@@ -9,7 +9,7 @@ public class CompletableFutureTest1 {
 
     private static class AskThread implements Runnable {
 
-        private CompletableFuture<Integer> re = null;
+        private CompletableFuture<Integer> re;
 
         public AskThread(CompletableFuture<Integer> re) {
             this.re = re;
@@ -20,7 +20,7 @@ public class CompletableFutureTest1 {
             int myRe = 0;
             try {
                 myRe = re.get() * re.get();
-            }catch (Exception ex) {
+            } catch (Exception ex) {
             }
             System.out.println(myRe);
         }

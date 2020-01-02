@@ -15,8 +15,8 @@ public class CompletableFutureTest5 {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         CompletableFuture<Void> future = CompletableFuture.supplyAsync(() -> calc(50))
                 .thenCompose(i -> CompletableFuture.supplyAsync(() -> calc(i)))
-                        .thenApply(str -> str + " hello")
-                        .thenAccept(System.out::println);
+                .thenApply(str -> str + " hello")
+                .thenAccept(System.out::println);
         future.get();
     }
 }
