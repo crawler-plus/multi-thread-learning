@@ -17,8 +17,8 @@ public class LongAdderTest {
 
         Thread t1 = new Thread(() -> {
             int size = array1.length;
-            for(int i = 0; i < size; i ++) {
-                if(array1[i].intValue() == 0) {
+            for (int i = 0; i < size; i++) {
+                if (array1[i].intValue() == 0) {
                     longAdder.increment();
                 }
             }
@@ -26,8 +26,8 @@ public class LongAdderTest {
 
         Thread t2 = new Thread(() -> {
             int size = array2.length;
-            for(int i = 0; i < size; i ++) {
-                if(array2[i].intValue() == 0) {
+            for (int i = 0; i < size; i++) {
+                if (array2[i].intValue() == 0) {
                     longAdder.increment();
                 }
             }
@@ -37,6 +37,6 @@ public class LongAdderTest {
         t2.start();
         t1.join();
         t2.join();
-        System.out.println(longAdder.sum());
+        System.out.println(longAdder.intValue());
     }
 }

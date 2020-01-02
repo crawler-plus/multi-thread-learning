@@ -25,16 +25,16 @@ public class AtomicIntegerFieldUpdaterTest {
     public static void main(String[] args) throws Exception {
         final Candidate stu = new Candidate();
         Thread[] t = new Thread[10000];
-        for(int i = 0; i < t.length; i ++) {
+        for (int i = 0; i < t.length; i++) {
             t[i] = new Thread(() -> {
-                if(Math.random() > 0.4) {
+                if (Math.random() > 0.4) {
                     scoreUpdater.incrementAndGet(stu);
                     allScore.incrementAndGet();
                 }
             });
             t[i].start();
         }
-        for(int i = 0; i < t.length; i ++) {
+        for (int i = 0; i < t.length; i++) {
             t[i].join();
         }
         System.out.println("score=" + stu.score);

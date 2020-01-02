@@ -1,7 +1,7 @@
 package demo10;
 
 /**
- *  一个线程中调用另一个正在睡眠线程中的interrupt方法，会让那个睡眠的线程抛出异常！
+ * 一个线程中调用另一个正在睡眠线程中的interrupt方法，会让那个睡眠的线程抛出异常！
  */
 public class SleepInterruptTest {
 

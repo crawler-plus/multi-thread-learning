@@ -5,7 +5,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * 创建线程池的时候，注意指定线程池的名称，容器排查问题
+ * 创建线程池的时候，注意指定线程池的名称，容易排查问题
  */
 public class ThreadPoolNameTest {
 

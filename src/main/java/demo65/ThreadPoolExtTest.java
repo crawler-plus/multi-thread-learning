@@ -36,7 +36,7 @@ public class ThreadPoolExtTest {
 
     public static void main(String[] args) {
         ExecutorService executorService = new ThreadPoolExecutor(5, 5, 0L, TimeUnit.MILLISECONDS,
-                new LinkedBlockingQueue<>()){
+                new LinkedBlockingQueue<>()) {
 
             @Override
             protected void beforeExecute(Thread t, Runnable r) {

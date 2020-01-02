@@ -17,7 +17,7 @@ public class CountDownLatchTest {
                 System.out.println(Thread.currentThread().getName() + "over");
             } catch (InterruptedException e) {
                 e.printStackTrace();
-            }finally {
+            } finally {
                 countDownLatch.countDown();
             }
         });
@@ -28,7 +28,7 @@ public class CountDownLatchTest {
                 System.out.println(Thread.currentThread().getName() + "over");
             } catch (InterruptedException e) {
                 e.printStackTrace();
-            }finally {
+            } finally {
                 countDownLatch.countDown();
             }
         });

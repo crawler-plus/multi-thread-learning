@@ -21,7 +21,7 @@ public class SimpleThreadSafeArrayList {
         writeLock.lock();
         try {
             arrayList.add(e);
-        }finally {
+        } finally {
             writeLock.unlock();
         }
     }
@@ -30,7 +30,7 @@ public class SimpleThreadSafeArrayList {
         writeLock.lock();
         try {
             arrayList.remove(e);
-        }finally {
+        } finally {
             writeLock.unlock();
         }
     }
@@ -39,7 +39,7 @@ public class SimpleThreadSafeArrayList {
         readLock.lock();
         try {
             arrayList.get(index);
-        }finally {
+        } finally {
             readLock.unlock();
         }
     }

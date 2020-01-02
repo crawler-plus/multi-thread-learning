@@ -25,7 +25,7 @@ public class DelayQueueTest {
         }
 
         /**
-            剩余时间＝到期时间 - 当前时间
+         * 剩余时间＝到期时间 - 当前时间
          */
         @Override
         public long getDelay(TimeUnit unit) {
@@ -34,6 +34,7 @@ public class DelayQueueTest {
 
         /**
          * 优先队列里的优先级规则
+         *
          * @param o
          * @return
          */
@@ -51,18 +52,18 @@ public class DelayQueueTest {
     public static void main(String[] args) {
         DelayQueue<DelayedTask> delayQueue = new DelayQueue<>();
         Random random = new Random();
-        for(int i = 0; i < 10; i ++) {
+        for (int i = 0; i < 10; i++) {
             DelayedTask delayedTask = new DelayedTask(random.nextInt(500), "task:" + i);
             delayQueue.offer(delayedTask);
         }
         DelayedTask ele;
         try {
-            for(;;) {
-                while((ele = delayQueue.take()) != null) {
+            for (; ; ) {
+                while ((ele = delayQueue.take()) != null) {
                     System.out.println(ele);
                 }
             }
-        }catch (Exception ex) {
+        } catch (Exception ex) {
             ex.printStackTrace();
         }
     }

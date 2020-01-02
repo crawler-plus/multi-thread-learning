@@ -15,7 +15,7 @@ public class SynchronizedIntegerBadTest implements Runnable {
     public void run() {
         IntStream.range(0, 10000).forEach(ele -> {
             synchronized (i) { // 将i改为this就可以
-                i ++;
+                i++;
             }
         });
     }

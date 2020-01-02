@@ -1,7 +1,7 @@
 package demo47;
 
 /**
- * 创建线程的时候，注意指定线程的名称，容器排查问题
+ * 创建线程的时候，注意指定线程的名称，容易排查问题
  */
 public class ThreadNameTest {
 

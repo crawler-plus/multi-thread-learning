@@ -20,7 +20,7 @@ public class CountDownLatchTest {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
-            }finally {
+            } finally {
                 countDownLatch.countDown();
             }
         });
@@ -30,7 +30,7 @@ public class CountDownLatchTest {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
-            }finally {
+            } finally {
                 countDownLatch.countDown();
             }
         });

@@ -20,13 +20,13 @@ public class AtomicIntegerArrayTest {
 
     public static void main(String[] args) throws Exception {
         Thread[] ts = new Thread[5];
-        for(int i = 0; i < ts.length; i ++) {
+        for (int i = 0; i < ts.length; i++) {
             ts[i] = new Thread(new AddThread());
         }
-        for(int i = 0; i < ts.length; i ++) {
+        for (int i = 0; i < ts.length; i++) {
             ts[i].start();
         }
-        for(int i = 0; i < ts.length; i ++) {
+        for (int i = 0; i < ts.length; i++) {
             ts[i].join();
         }
         System.out.println(arr);

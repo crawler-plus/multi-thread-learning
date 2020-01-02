@@ -18,6 +18,7 @@ public class InterruptTest {
         });
 
         threadOne.start();
+        TimeUnit.SECONDS.sleep(2);
         threadOne.interrupt(); // 在子线程长时间等待情况下，调用子线程的interrupt方法可以提前中断子线程的执行。
         threadOne.join(); // 等待子线程执行完毕
         System.out.println(Thread.currentThread() + "is over");

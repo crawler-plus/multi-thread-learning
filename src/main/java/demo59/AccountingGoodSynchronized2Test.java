@@ -10,13 +10,13 @@ public class AccountingGoodSynchronized2Test implements Runnable {
     private static int i = 0;
 
     private static void increase() {
-        i ++;
+        i++;
     }
 
     @Override
     public void run() {
         synchronized (AccountingSynchronizedTest.class) {
-            for(int i = 0; i < 10000; i ++) {
+            for (int i = 0; i < 10000; i++) {
                 increase();
             }
         }

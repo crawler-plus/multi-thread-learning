@@ -42,11 +42,6 @@ public class DoubleWaitTest {
                 // 由于线程A只释放了resourceA的锁，没有释放resourceB的锁，所以下面代码无法执行，程序不能中断
                 synchronized (resourceB) {
                     System.out.println(Thread.currentThread() + "get resourceB lock");
-                    try {
-                        resourceA.wait();
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
                 }
             }
         });

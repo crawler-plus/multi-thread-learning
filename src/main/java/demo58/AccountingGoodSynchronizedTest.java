@@ -8,12 +8,12 @@ public class AccountingGoodSynchronizedTest implements Runnable {
     private static int i = 0;
 
     private static synchronized void increase() {
-        i ++;
+        i++;
     }
 
     @Override
     public void run() {
-        for(int i = 0; i < 10000; i ++) {
+        for (int i = 0; i < 10000; i++) {
             increase();
         }
     }

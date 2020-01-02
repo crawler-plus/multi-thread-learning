@@ -27,5 +27,6 @@ public class ThreadPoolRejectedExecutionTest {
                 new LinkedBlockingQueue<>(10), Executors.defaultThreadFactory(),
                 (r, exe) -> System.out.println(r.toString() + "is discard"));
         IntStream.range(0, 100).forEach(each -> executorService.submit(myTask));
+        executorService.shutdown();
     }
 }

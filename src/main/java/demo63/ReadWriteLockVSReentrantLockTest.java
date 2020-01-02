@@ -25,7 +25,7 @@ public class ReadWriteLockVSReentrantLockTest {
             lock.lock();
             Thread.sleep(1000);
             return value;
-        }finally {
+        } finally {
             lock.unlock();
         }
     }
@@ -35,7 +35,7 @@ public class ReadWriteLockVSReentrantLockTest {
             lock.lock();
             Thread.sleep(1000);
             value = index;
-        }finally {
+        } finally {
             lock.unlock();
         }
     }
@@ -58,10 +58,10 @@ public class ReadWriteLockVSReentrantLockTest {
                 e.printStackTrace();
             }
         };
-        for(int i = 0; i < 18; i ++) {
+        for (int i = 0; i < 18; i++) {
             new Thread(runnableRead).start();
         }
-        for(int i = 0; i < 2; i ++) {
+        for (int i = 0; i < 2; i++) {
             new Thread(runnableWrite).start();
         }
     }

@@ -11,7 +11,7 @@ public class FutureTaskTest {
     private static final class CallerTask implements Callable<String> {
 
         @Override
-        public String call() throws Exception {
+        public String call() {
             return "hello, world";
         }
     }

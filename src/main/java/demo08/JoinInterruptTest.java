@@ -7,13 +7,14 @@ import java.util.concurrent.TimeUnit;
  */
 public class JoinInterruptTest {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
 
         final Thread mainThread = Thread.currentThread();
 
         Thread threadOne = new Thread(() -> {
             System.out.println(Thread.currentThread() + "begin!");
-            for(;;) {}
+            for (; ; ) {
+            }
         });
 
         Thread threadTwo = new Thread(() -> {

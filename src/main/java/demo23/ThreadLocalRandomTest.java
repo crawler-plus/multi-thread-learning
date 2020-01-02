@@ -10,7 +10,7 @@ public class ThreadLocalRandomTest {
     public static void main(String[] args) {
 
         ThreadLocalRandom threadLocalRandom = ThreadLocalRandom.current();
-        for(int i = 0; i < 5; i ++) {
+        for (int i = 0; i < 5; i++) {
             System.out.println(threadLocalRandom.nextInt());
             System.out.println(threadLocalRandom.nextInt(5));
             System.out.println(threadLocalRandom.nextLong());

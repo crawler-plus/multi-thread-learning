@@ -17,8 +17,8 @@ public class AtomicTest {
 
         Thread t1 = new Thread(() -> {
             int size = array1.length;
-            for(int i = 0; i < size; i ++) {
-                if(array1[i].intValue() == 0) {
+            for (int i = 0; i < size; i++) {
+                if (array1[i].intValue() == 0) {
                     atomicLong.incrementAndGet();
                 }
             }
@@ -26,8 +26,8 @@ public class AtomicTest {
 
         Thread t2 = new Thread(() -> {
             int size = array2.length;
-            for(int i = 0; i < size; i ++) {
-                if(array2[i].intValue() == 0) {
+            for (int i = 0; i < size; i++) {
+                if (array2[i].intValue() == 0) {
                     atomicLong.incrementAndGet();
                 }
             }

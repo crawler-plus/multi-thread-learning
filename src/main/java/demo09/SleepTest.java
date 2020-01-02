@@ -4,7 +4,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- *  简单演示Thread.sleep方法作用
+ * 简单演示Thread.sleep方法作用
  */
 public class SleepTest {
 
@@ -16,11 +16,11 @@ public class SleepTest {
             lock.lock();
             try {
                 System.out.println(Thread.currentThread() + "is in sleep");
-                Thread.sleep(1000);
+                Thread.sleep(2000);
                 System.out.println(Thread.currentThread() + "is in awaked");
             } catch (InterruptedException e) {
                 e.printStackTrace();
-            }finally {
+            } finally {
                 lock.unlock();
             }
         });
@@ -33,7 +33,7 @@ public class SleepTest {
                 System.out.println(Thread.currentThread() + "is in awaked");
             } catch (InterruptedException e) {
                 e.printStackTrace();
-            }finally {
+            } finally {
                 lock.unlock();
             }
         });

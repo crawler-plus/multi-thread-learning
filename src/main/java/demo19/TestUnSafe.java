@@ -13,7 +13,7 @@ public class TestUnSafe {
 
     private static long stateOffset;
 
-    private long state;
+    private long state = 0L;
 
     static {
         try {

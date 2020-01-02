@@ -19,8 +19,8 @@ public class ReentrantLockTest implements Runnable {
             lock.lock();
             lock.lock(); // 锁可以重入
             try {
-                i ++;
-            }finally {
+                i++;
+            } finally {
                 lock.unlock();
                 lock.unlock(); // lock几次就要unlock几次
             }

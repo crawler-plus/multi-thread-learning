@@ -28,5 +28,11 @@ public class CopyOnWriteArrayListTest {
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
+        System.out.println("---------------------");
+        // 这个迭代器反映的是线程1修改完之后的情况
+        Iterator<String> nextIterator = copyOnWriteArrayList.iterator();
+        while (nextIterator.hasNext()) {
+            System.out.println(nextIterator.next());
+        }
     }
 }

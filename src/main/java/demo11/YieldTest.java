@@ -13,8 +13,8 @@ public class YieldTest implements Runnable {
 
     @Override
     public void run() {
-        for(int i = 0; i < 5; i ++) {
-            if((i % 5) == 0) {
+        for (int i = 0; i < 5; i++) {
+            if ((i % 5) == 0) {
                 System.out.println(Thread.currentThread() + "yield cpu");
                 try {
                     TimeUnit.SECONDS.sleep(1);

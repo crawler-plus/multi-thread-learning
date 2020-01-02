@@ -13,8 +13,8 @@ public class ThreadPriorityTest {
         public void run() {
             while (true) {
                 synchronized (ThreadPriorityTest.class) {
-                    count ++;
-                    if(count > 10000000) {
+                    count++;
+                    if (count > 10000000) {
                         System.out.println("High priority thread is complete");
                         break;
                     }
@@ -31,8 +31,8 @@ public class ThreadPriorityTest {
         public void run() {
             while (true) {
                 synchronized (ThreadPriorityTest.class) {
-                    count ++;
-                    if(count > 10000000) {
+                    count++;
+                    if (count > 10000000) {
                         System.out.println("Low priority thread is complete");
                         break;
                     }

@@ -11,15 +11,15 @@ public class NotifyTest {
 
     public static void main(String[] args) throws Exception {
         Thread threadA = new Thread(() -> {
-           synchronized (obj) {
-               System.out.println(Thread.currentThread() + "get lock");
-               try {
-                   obj.wait();
-               } catch (InterruptedException e) {
-                   e.printStackTrace();
-               }
-               System.out.println(Thread.currentThread() + "end wait");
-           }
+            synchronized (obj) {
+                System.out.println(Thread.currentThread() + "get lock");
+                try {
+                    obj.wait();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                System.out.println(Thread.currentThread() + "end wait");
+            }
         });
 
         Thread threadB = new Thread(() -> {

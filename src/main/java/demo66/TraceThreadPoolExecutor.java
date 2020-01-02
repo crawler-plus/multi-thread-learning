@@ -33,7 +33,7 @@ public class TraceThreadPoolExecutor extends ThreadPoolExecutor {
         return () -> {
             try {
                 runnable.run();
-            }catch (Exception ex) {
+            } catch (Exception ex) {
                 clientStack.printStackTrace();
                 throw ex;
             }

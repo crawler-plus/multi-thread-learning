@@ -30,7 +30,7 @@ public class SemaphoreTest implements Runnable {
         ExecutorService executorService = Executors.newFixedThreadPool(poolCount);
         final SemaphoreTest demo = new SemaphoreTest();
         // 每5个一组，执行一次
-        for(int i = 0; i < poolCount; i ++) {
+        for (int i = 0; i < poolCount; i++) {
             executorService.execute(demo);
         }
         executorService.shutdown();

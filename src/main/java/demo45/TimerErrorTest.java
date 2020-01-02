@@ -29,7 +29,7 @@ public class TimerErrorTest {
         timer.schedule(new TimerTask() {
             @Override
             public void run() {
-                for(;;) {
+                for (; ; ) {
                     System.out.println("two task");
                     try {
                         Thread.sleep(1000);

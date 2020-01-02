@@ -7,11 +7,12 @@ public class InterruptTest {
 
     public static void main(String[] args) throws Exception {
         Thread thread = new Thread(() -> {
-            while (!Thread.currentThread().isInterrupted()) {
+            Thread currentThread = Thread.currentThread();
+            while (!currentThread.isInterrupted()) {
                 try {
                     Thread.sleep(200);
                 } catch (InterruptedException e) {
-                    Thread.currentThread().interrupt(); // 执行当前线程的interrupt方法。
+                    currentThread.interrupt(); // 执行当前线程的interrupt方法。
                 }
                 System.out.println(Thread.currentThread() + "is running");
             }

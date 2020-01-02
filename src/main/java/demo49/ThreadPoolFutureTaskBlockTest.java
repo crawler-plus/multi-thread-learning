@@ -44,7 +44,7 @@ public class ThreadPoolFutureTaskBlockTest {
                 }
                 return 7;
             });
-        }catch (Exception ex) {
+        } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
 

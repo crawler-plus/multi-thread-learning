@@ -32,7 +32,7 @@ public class PriorityBlockingQueueTest {
 
         @Override
         public int compareTo(Task o) {
-            if(this.priority > o.getPriority()) {
+            if (this.priority > o.getPriority()) {
                 return 1;
             }
             return -1;
@@ -46,7 +46,7 @@ public class PriorityBlockingQueueTest {
     public static void main(String[] args) {
         PriorityBlockingQueue<Task> priorityBlockingQueue = new PriorityBlockingQueue<>();
         Random random = new Random();
-        for(int i = 0; i < 10; i ++) {
+        for (int i = 0; i < 10; i++) {
             Task task = new Task();
             task.setPriority(random.nextInt(100));
             task.setTaskName("taskName" + i);
@@ -54,7 +54,7 @@ public class PriorityBlockingQueueTest {
         }
         while (!priorityBlockingQueue.isEmpty()) {
             Task task = priorityBlockingQueue.poll();
-            if(null != task) {
+            if (null != task) {
                 task.doSomeThing();
             }
         }

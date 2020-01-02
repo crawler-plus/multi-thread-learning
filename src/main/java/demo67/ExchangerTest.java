@@ -25,7 +25,7 @@ public class ExchangerTest {
         public void run() {
             try {
                 System.out.println(threadName + ": " + exchanger.exchange(string));
-            }catch (Exception ex) {
+            } catch (Exception ex) {
                 ex.printStackTrace();
             }
         }
