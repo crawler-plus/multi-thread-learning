@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="fbd525ef-fdff-4056-ac6c-89481262da65" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo70/CompletableFutureTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo70/CompletableFutureTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo70/CompletableFutureTest5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo70/CompletableFutureTest5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo71/RateLimiterTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo71/RateLimiterTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo71/RateLimiterTest2$Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo71/RateLimiterTest2$Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo71/RateLimiterTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo71/RateLimiterTest2.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,66 +16,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/demo70/CompletableFutureTest1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/demo70/CompletableFutureTest2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/demo70/CompletableFutureTest3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="9" selection-start-line="10" selection-start-column="12" selection-end-line="12" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/demo70/CompletableFutureTest4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/demo70/CompletableFutureTest5.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/demo70/CompletableFutureTest6.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/demo14/DeadLockTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="27" />
+            <state relative-caret-position="72">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/CompletableFuture.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/demo19/TestUnSafe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="2121" column="36" selection-start-line="2121" selection-start-column="36" selection-end-line="2121" selection-end-column="36" />
+            <state relative-caret-position="140">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -101,8 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/demo07/JoinTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/demo12/InterruptTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo13/InterruptTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo15/DaemonThreadTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo06/NotifyTest.java" />
@@ -137,7 +91,6 @@
         <option value="$PROJECT_DIR$/src/main/java/demo55/AccountingSynchronizedTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo56/AccountingSynchronized2Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo57/AccountingBadSynchronizedTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/demo58/AccountingGoodSynchronizedTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo59/AccountingGoodSynchronized2Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo60/SynchronizedIntegerBadTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo61/ReentrantLockTest.java" />
@@ -152,6 +105,9 @@
         <option value="$PROJECT_DIR$/src/main/java/demo69/AtomicIntegerFieldUpdaterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo70/CompletableFutureTest1.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo70/CompletableFutureTest5.java" />
+        <option value="$PROJECT_DIR$/src/main/java/demo14/DeadLockTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/demo71/RateLimiterTest2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/demo58/AccountingGoodSynchronizedTest.java" />
       </list>
     </option>
   </component>
@@ -179,6 +135,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,110 +168,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo13" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo14" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -323,14 +177,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo15" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo16" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
@@ -410,14 +256,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo26" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo27" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -466,111 +304,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo33" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo34" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo35" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo36" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo37" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo38" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo39" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo40" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo41" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo42" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo43" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo44" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo45" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo46" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
@@ -586,203 +320,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo48" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo49" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo50" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo51" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo52" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo53" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo54" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo55" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo56" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo57" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo58" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo59" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo60" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo61" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo62" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo63" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo64" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo65" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo66" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo67" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo68" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo69" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo70" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="ThreadF&#9;FILE&#9;jar://D:/Program Files/Java/jdk1.8.0_77/src.zip!/java/util/concurrent/ThreadFactory.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577945396369" />
-    <property name="last_opened_file_path" value="C:/tRetailApi/tRetailAPI" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578299953773" />
+    <property name="last_opened_file_path" value="C:/groovy-test" />
     <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -805,48 +361,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RateLimiterTest1">
+  <component name="RunManager" selected="Application.DeadLockTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompletableFutureTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo70.CompletableFutureTest3" />
+    <configuration name="AccountingGoodSynchronizedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo58.AccountingGoodSynchronizedTest" />
       <module name="multi-thread-learning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo70.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompletableFutureTest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo70.CompletableFutureTest4" />
-      <module name="multi-thread-learning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo70.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompletableFutureTest5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo70.CompletableFutureTest5" />
-      <module name="multi-thread-learning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo70.*" />
+          <option name="PATTERN" value="demo58.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -868,8 +396,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DeadLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo14.DeadLockTest" />
+      <module name="multi-thread-learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RateLimiterTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo71.RateLimiterTest1" />
+      <module name="multi-thread-learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo71.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RateLimiterTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo71.RateLimiterTest2" />
       <module name="multi-thread-learning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -912,19 +468,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CompletableFutureTest3" />
-      <item itemvalue="Application.CompletableFutureTest4" />
-      <item itemvalue="Application.CompletableFutureTest5" />
       <item itemvalue="Application.CompletableFutureTest6" />
       <item itemvalue="Application.RateLimiterTest1" />
+      <item itemvalue="Application.DeadLockTest" />
+      <item itemvalue="Application.RateLimiterTest2" />
+      <item itemvalue="Application.AccountingGoodSynchronizedTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeadLockTest" />
+        <item itemvalue="Application.AccountingGoodSynchronizedTest" />
+        <item itemvalue="Application.RateLimiterTest2" />
         <item itemvalue="Application.RateLimiterTest1" />
         <item itemvalue="Application.CompletableFutureTest6" />
-        <item itemvalue="Application.CompletableFutureTest5" />
-        <item itemvalue="Application.CompletableFutureTest4" />
-        <item itemvalue="Application.CompletableFutureTest3" />
       </list>
     </recent_temporary>
   </component>
@@ -961,9 +517,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-313" y="-1088" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20575693" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21002132" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -974,14 +529,14 @@
       <window_info id="Job Explorer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.22860238" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" weight="0.2751896" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50214595" side_tool="true" weight="0.32692307" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32827735" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4171181" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32918552" />
       <window_info anchor="bottom" id="Console" order="11" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -996,85 +551,43 @@
       <window_info anchor="right" id="Maven" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info id="Project Explorer" order="0" />
-      <window_info id="Job Explorer" order="1" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.20362474" />
-      <window_info id="Structure" order="3" weight="0.25" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="Designer" order="5" />
-      <window_info id="UI Designer" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info id="Image Layers" order="8" />
-      <window_info anchor="bottom" id="Console" order="0" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49785408" visible="true" weight="0.3261105" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39932126" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50214595" side_tool="true" weight="0.32692307" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32918552" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32918552" />
-      <window_info anchor="right" id="Maven" order="0" />
-      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20788912" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Project Explorer" order="7" />
+      <window_info id="Job Explorer" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" weight="0.22860238" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50214595" side_tool="true" weight="0.32692307" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32918552" />
+      <window_info anchor="bottom" id="Console" order="11" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo35/PriorityBlockingQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo36/DelayQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo37/CountDownLatchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="54" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo38/CountDownLatchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/CyclicBarrier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="276" column="11" selection-start-line="276" selection-start-column="11" selection-end-line="276" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo39/CyclicBarrierTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="39" column="74" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demo40/CyclicBarrierTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
@@ -1118,13 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" column="26" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo45/TimerErrorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1227,13 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo58/AccountingGoodSynchronizedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1401,8 +900,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demo70/CompletableFutureTest6.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo71/RateLimiterTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="69" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/util/concurrent/RateLimiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="107" column="61" lean-forward="true" selection-start-line="107" selection-start-column="61" selection-end-line="107" selection-end-column="61" />
+          <folding>
+            <element signature="e#14239#14240#0" expanded="true" />
+            <element signature="e#14292#14293#0" expanded="true" />
+            <element signature="e#14609#14610#0" expanded="true" />
+            <element signature="e#14656#14657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo71/RateLimiterTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="27" />
+          <caret line="11" column="68" lean-forward="true" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo58/AccountingGoodSynchronizedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo45/TimerErrorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo20/VolatileForbidMemoryReOrderingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo19/TestUnSafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo14/DeadLockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
