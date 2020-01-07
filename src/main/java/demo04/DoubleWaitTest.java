@@ -11,7 +11,7 @@ public class DoubleWaitTest {
 
     private static final Object resourceB = new Object();
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
 
         Thread threadA = new Thread(() -> {
             // 获取resourceA的锁
@@ -48,7 +48,5 @@ public class DoubleWaitTest {
 
         threadA.start();
         threadB.start();
-        threadA.join();
-        threadB.join();
     }
 }

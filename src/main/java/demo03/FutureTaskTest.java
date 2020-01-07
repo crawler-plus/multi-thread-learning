@@ -12,6 +12,11 @@ public class FutureTaskTest {
 
         @Override
         public String call() {
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             return "hello, world";
         }
     }
@@ -19,6 +24,8 @@ public class FutureTaskTest {
     public static void main(String[] args) throws Exception {
         FutureTask<String> futureTask = new FutureTask<>(new CallerTask());
         new Thread(futureTask).start();
+        // 做一些事情
+        Thread.sleep(500);
         // 等待任务执行完毕，返回结果
         String s = futureTask.get();
         System.out.println(s);

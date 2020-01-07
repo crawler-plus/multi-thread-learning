@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbd525ef-fdff-4056-ac6c-89481262da65" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_44_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo72/FastThreadLocalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multi-thread-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/multi-thread-learning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo65/ThreadPoolExtTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo65/ThreadPoolExtTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo71/RateLimiterTest2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo71/RateLimiterTest2$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo71/RateLimiterTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo03/FutureTaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo03/FutureTaskTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo04/DoubleWaitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo04/DoubleWaitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo06/NotifyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo06/NotifyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo03/FutureTaskTest$CallerTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo03/FutureTaskTest$CallerTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo03/FutureTaskTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo03/FutureTaskTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo04/DoubleWaitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo04/DoubleWaitTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo72/FastThreadLocalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo72/FastThreadLocalTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,7 +20,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/demo06/NotifyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,10 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/demo06/NotifyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/demo08/JoinInterruptTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/demo09/SleepTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/demo10/SleepInterruptTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo11/YieldTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo19/TestUnSafe.java" />
         <option value="$PROJECT_DIR$/src/main/java/demo20/VolatileForbidMemoryReOrderingTest.java" />
@@ -94,6 +99,10 @@
         <option value="$PROJECT_DIR$/src/main/java/demo58/AccountingGoodSynchronizedTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/demo72/FastThreadLocalTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/demo03/FutureTaskTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/demo04/DoubleWaitTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/demo05/WaitNotifyInterruptTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/demo06/NotifyTest.java" />
       </list>
     </option>
   </component>
@@ -146,6 +155,62 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="multi-thread-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="multi-thread-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo72" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -158,7 +223,7 @@
     <property name="SearchEverywhereHistoryKey" value="ThreadF&#9;FILE&#9;jar://D:/Program Files/Java/jdk1.8.0_77/src.zip!/java/util/concurrent/ThreadFactory.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578385602684" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578389300516" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
     <property name="project.structure.last.edited" value="Project" />
@@ -187,20 +252,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FastThreadLocalTest">
+  <component name="RunManager" selected="Application.JoinTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountingGoodSynchronizedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo58.AccountingGoodSynchronizedTest" />
+    <configuration name="DoubleWaitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo04.DoubleWaitTest" />
       <module name="multi-thread-learning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo58.*" />
+          <option name="PATTERN" value="demo04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,13 +273,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeadLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo14.DeadLockTest" />
+    <configuration name="FutureTaskTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo03.FutureTaskTest" />
       <module name="multi-thread-learning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo14.*" />
+          <option name="PATTERN" value="demo03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,13 +287,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FastThreadLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo72.FastThreadLocalTest" />
+    <configuration name="JoinTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo07.JoinTest" />
       <module name="multi-thread-learning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo72.*" />
+          <option name="PATTERN" value="demo07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,13 +301,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RateLimiterTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo71.RateLimiterTest1" />
+    <configuration name="NotifyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo06.NotifyTest" />
       <module name="multi-thread-learning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo71.*" />
+          <option name="PATTERN" value="demo06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,13 +315,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RateLimiterTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo71.RateLimiterTest2" />
+    <configuration name="WaitNotifyInterruptTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo05.WaitNotifyInterruptTest" />
       <module name="multi-thread-learning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo71.*" />
+          <option name="PATTERN" value="demo05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -294,19 +359,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RateLimiterTest1" />
-      <item itemvalue="Application.DeadLockTest" />
-      <item itemvalue="Application.RateLimiterTest2" />
-      <item itemvalue="Application.AccountingGoodSynchronizedTest" />
-      <item itemvalue="Application.FastThreadLocalTest" />
+      <item itemvalue="Application.FutureTaskTest" />
+      <item itemvalue="Application.DoubleWaitTest" />
+      <item itemvalue="Application.WaitNotifyInterruptTest" />
+      <item itemvalue="Application.NotifyTest" />
+      <item itemvalue="Application.JoinTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FastThreadLocalTest" />
-        <item itemvalue="Application.DeadLockTest" />
-        <item itemvalue="Application.AccountingGoodSynchronizedTest" />
-        <item itemvalue="Application.RateLimiterTest2" />
-        <item itemvalue="Application.RateLimiterTest1" />
+        <item itemvalue="Application.JoinTest" />
+        <item itemvalue="Application.NotifyTest" />
+        <item itemvalue="Application.WaitNotifyInterruptTest" />
+        <item itemvalue="Application.DoubleWaitTest" />
+        <item itemvalue="Application.FutureTaskTest" />
       </list>
     </recent_temporary>
   </component>
@@ -343,6 +408,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-313" y="-1088" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2153518" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -454,55 +520,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo46/ScheduledThreadPoolExecutorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo47/ThreadNameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/ThreadFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo48/ThreadPoolNameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo49/ThreadPoolFutureTaskBlockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo51/VolatileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo50/VolatileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -791,13 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo05/WaitNotifyInterruptTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/demo40/CyclicBarrierTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -805,17 +815,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demo72/FastThreadLocalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo72/FastThreadLocalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo01/ThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo02/RunnableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/RunnableFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/concurrent/FutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="131" column="11" selection-start-line="131" selection-start-column="11" selection-end-line="131" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo03/FutureTaskTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo05/WaitNotifyInterruptTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo04/DoubleWaitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demo06/NotifyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="27" />
         </state>
       </provider>
     </entry>

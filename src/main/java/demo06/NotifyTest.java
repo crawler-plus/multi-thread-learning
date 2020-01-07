@@ -46,8 +46,5 @@ public class NotifyTest {
         threadB.start();
         TimeUnit.SECONDS.sleep(1);
         threadC.start();
-        threadA.join();
-        threadB.join();
-        threadC.join();
     }
 }
